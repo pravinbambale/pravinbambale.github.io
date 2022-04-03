@@ -258,6 +258,12 @@ footer a:not(.nav-link) {
 }
 
 @media (max-width: 575.98px) {
+  .col-sm-2{
+    width: 20% !important;
+  }  
+  .col-sm-2 h5{
+    font-size: 0.55rem !important;
+  }
   .marker {
     padding-right: 0;
   }
