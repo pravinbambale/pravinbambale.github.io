@@ -1,0 +1,64 @@
+1.  s.swapcase() ## this functions is use for swap characters viscarsa Ex. caT => CAt
+
+2.  a.split(" ") ## to split string in array Ex. 
+
+3. "-".join(a) ## use to join array values in string ['a','b'] then output will a-b
+
+4. python links are concat with + and print, we cant return it, Ex.  print("Hello "+variable+"! End. ")
+
+5.  mutable string can be change with assigning in list, then need to set value with keys and then again need to join that 	
+	updated key valut to mutable string OR we can slic of string in two parts then we can merge that with concatatations string[:5]+k+string[6:]
+
+6. len(string) string length string[i:ith]
+
+7. str.isalnum() to check link is only alphanumeric not alhanumerix special character abc123 = true else abc123@$ = false
+
+8. str.isalpha() is only for alphbetics string not alpha numeric string Absds true and abc2323 or anc343@# is false
+
+9. str.isdigit() FOR validate digit/numeric string
+
+10. str.islower() FOR validate lower case string
+
+11. str.isupper()  FOR validate upper case string
+
+12 .ljust(width,'-')  for test align left   width for total string width and resplce remain with next parametner
+
+13.center(width,'-') for text align center  width for total string width and resplce remain with next parametner
+
+14 .rjust(width,'-') for text align righ   width for total string width and resplce remain with next parametner
+
+15 textwrap.fill(string,max_width) this function uses to break the string in max width lengths partiotions
+
+16 map(fun, iter) >> IMP function in python mapping function with static values like function with array values on by one
+	EX N, M = map(int, input().split()) then value will get N, M seprately 
+
+17 str() The str() function returns the string version of the given object. 
+
+18 bin. oct, hex function are we used to convert the given digits into specifit numeric type 
+
+============ numpy
+
+19 min 		to get min axis from 2d array
+20 max 		to get max axis from 2d array
+21 mean 	The mean tool computes the arithmetic mean along the specified axis.
+22 var 		The var tool computes the arithmetic variance along the specified axis.
+23 std The std tool computes the arithmetic standard deviation along the specified axis.
+--------------------
+itertools.product()  For example, product(A, B) returns the same as ((x,y) for x in A for y in B). 
+print list(product([1,2,3],repeat = 2)) 	output => [(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)]
+print list(product([1,2,3],[3,4])) 			output => [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]
+--------------------
+self veriable : Self is the first argument to be passed in Constructor and Instance Method. self is parameter in Instance Method and user can use another parameter name in place of it. But it is advisable to use self because it increases the readability of code, and it is also a good programming practice.
+
+__init__ is contructor similar to c++ and java
+
+----------------------
+Rodger.__class__.attr1  object.inclass.attr1  in obeject in class get attr
+EX .
+Rodger = Dog("Rodger")
+Tommy = Dog("Tommy")
+print("Rodger is a {}".format(Rodger.__class__.attr1))
+print("Tommy is also a {}".format(Tommy.__class__.attr1))
+----------------------
+id() function returns an identity of an object. truely unique object identity.
+

@@ -1,0 +1,56 @@
+=======================  Python OOPs Concepts =====================
+
+
+object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming. The main concept of OOPs is to bind the data and the functions that work on that together as a single unit so that no other part of the code can access this data. 
+
+CLASS : 
+Main Concepts of Object-Oriented Programming (OOPs)  COPEI
+Class
+Objects
+Polymorphism
+Encapsulation
+Inheritance
+
+declration class Myclass: 
+access Eg.: Myclass.Myattribute
+
+classs MyClass:
+	pass
+------------------
+Objects
+The object is an entity that has a state and behavior associated with it. It may be any real-world object like a mouse, keyboard, chair, table, pen, etc. Integers, strings, floating-point numbers, even arrays, and dictionaries, are all objects. More specifically, any single integer or any single string is an object. The number 12 is an object, the string “Hello, world” is an object, a list is an object that can hold other objects, and so on. You’ve been using objects all along and may not even realize it.
+
+An object consists of :
+Eg of Dog
+State: in which state that object follow Ex breed, age, birthyear
+Behavior: mehtod of an object and response to object Ex, sleeping, eating, etc
+Identity: It gives a unique name to an object and enables one object to interact with other objects. Eg Name of DOg
+
+Object Declration 
+Class Dog : 
+	pass
+
+obj = Dog()
+
+---------------------------
+
+self in Python class : self represents the instance of the class. By using the “self” keyword we can access the attributes and methods of the class in python. It binds the attributes with the given arguments.
+The reason you need to use self. is because Python does not use the @ syntax to refer to instance attributes. Python decided to do methods in a way that makes the instance to which the method belongs be passed automatically, but not received automatically: the first parameter of methods is the instance the method is called on.
+
+class check:
+    def __init__(self):
+        print("Address of self = ",id(self))
+ 
+obj = check()
+print("Address of class object = ",id(obj))
+
+
+===============Inheritance================
+
+Inheritance  => Inheritance is the capability of one class to derive or inherit the properties from another class. The class that derives properties is called the DERIVED class or child class and the class from which the properties are being derived is called the base class or parent class.
+Benefits : =>  
+-	It represents real-world relationships well.
+-	It provides the reusability of a code. We don’t have to write the same code again and again. Also, it allows us to add more features to a class without modifying it.
+- It is transitive in nature, which means that if class B inherits from another class A, then all the subclasses of B would automatically inherit from class A.
+
+
